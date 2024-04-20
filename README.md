@@ -4,7 +4,7 @@ This is an improved version of the current hello-api we use in production. It wi
 
 ## Dependencies
 
--   Go version 1.18
+-   Go version 1.22
 
 ## Setup
 
