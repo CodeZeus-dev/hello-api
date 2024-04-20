@@ -8,8 +8,6 @@ setup: install-go init-go
 build:
 	go build -o api cmd/main.go
 
-
-#TODO add MacOS support
 install-go:
 	# Linux
 	wget "https://golang.org/dl/go$(GO_VERSION).linux-amd64.tar.gz"
