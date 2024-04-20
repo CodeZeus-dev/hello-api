@@ -1,12 +1,12 @@
 GO_VERSION := 1.22
 
-.PHONY: 
+.PHONY:
 	install-go init-go
 
-setup: 
+setup:
 	install-go init-go
 
-build: 
+build:
 	go build -o api cmd/main.go
 
 #TODO add MacOS support
